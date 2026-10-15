@@ -10,13 +10,15 @@ I build small security tools that actually work, and publish each one with tests
 
 | Stage | Project | What it does |
 |---|---|---|
-| Detect | [Log Hunter](https://github.com/Ezashi9/log-hunter) | Finds brute-force attacks, username spraying and suspicious logins in SSH server logs |
+| Detect | [Log Hunter](https://github.com/Ezashi9/log-hunter) | Finds SSH brute force, spraying and suspicious logins; mapped to MITRE ATT&CK with Sigma rules; 10/10 on labelled attack scenarios |
 | Investigate | [IOC Enricher](https://github.com/Ezashi9/ioc-enricher) | Checks attacker IPs against AbuseIPDB threat intelligence |
 | Report | [Home SOC Dashboard](https://github.com/Ezashi9/home-soc-dashboard) · [live](https://ezashi9.github.io/home-soc-dashboard/) | Web dashboard, hardened against log-injection XSS |
 | Automate | [Live Threat Feed](https://ezashi9.github.io/home-soc-dashboard/live.html) | Runs itself daily: pulls current attackers from SANS DShield and blocklist.de and checks them |
 
-### Also
+### Email security, risk and privacy
 
+- [Phish Triage](https://github.com/Ezashi9/phish-triage): analyses suspicious emails like a SOC analyst; caught 59.3% of a held-out sample of real phishing with 0.9% false alarms.
+- [Cyber Essentials Risk Assessment](https://github.com/Ezashi9/cyber-essentials-assessment): risk register, Cyber Essentials v3.3 gap analysis and costed action plan for a fictional small business.
 - [Breach Check](https://github.com/Ezashi9/breach-check) · [try it](https://ezashi9.github.io/breach-check/): checks if a password has been leaked without it ever leaving your device (k-anonymity).
 
 ### How I work
