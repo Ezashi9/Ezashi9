@@ -15,7 +15,9 @@ I build small security tools that actually work, and publish each one with tests
 | Report | [Home SOC Dashboard](https://github.com/Ezashi9/home-soc-dashboard) · [live](https://ezashi9.github.io/home-soc-dashboard/) | Web dashboard, hardened against log-injection XSS |
 | Automate | [Live Threat Feed](https://ezashi9.github.io/home-soc-dashboard/live.html) | Runs itself daily: pulls current attackers from SANS DShield and blocklist.de and checks them |
 
-### Email security, risk and privacy
+### Email, cloud, risk and privacy
+
+- [Cloud Config Auditor](https://github.com/Ezashi9/cloud-config-auditor): finds high-impact AWS misconfigurations in Terraform before deployment; 17/17 TerraGoat flaws caught, agrees with Checkov on 49 resources and found a secret it missed.
 
 - [Phish Triage](https://github.com/Ezashi9/phish-triage): analyses suspicious emails like a SOC analyst; caught 59.3% of a held-out sample of real phishing with 0.9% false alarms.
 - [Cyber Essentials Risk Assessment](https://github.com/Ezashi9/cyber-essentials-assessment): risk register, Cyber Essentials v3.3 gap analysis and costed action plan for a fictional small business.
